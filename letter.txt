@@ -1,0 +1,9 @@
+Seasons greetings, $PARTICIPANT_HANDLE!
+
+Your assigned recipient is $RECIPIENT_NAME, here are their questionnaire responses:
+
+$RESPONSES[]
+
+Once again, thank you so much for participating in Secret Santa this year!
+
+Happy Holidays!!
