@@ -17,7 +17,7 @@ def write_letter(p, r, q):
   for key, value in q.items():
     if key == "Discord Handle":
       continue
-    response_string += key + ":\n" + value + "\n\n"
+    response_string += "  " + key + ":\n   " + value + "\n\n"
 
   letter = f"""Seasons greetings, {p}!
 
