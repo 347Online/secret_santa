@@ -15,7 +15,7 @@ from pathlib import Path
 def write_letter(p, r, q):
   response_string = ""
   for key, value in q.items():
-    if key == "Discord Handle":
+    if key in ["Discord Handle ", "Timestamp", "Preferred Name"]:
       continue
     response_string += "  " + key + ":\n   " + value + "\n\n"
 
