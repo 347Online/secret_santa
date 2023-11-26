@@ -2,4 +2,12 @@
 
 I wrote these commandline tools for myself to make it easier to run a Secret Santa event for my friends or coworkers
 
-< todo >
+# Getting Started
+
+* Download your responses spreadsheet as "responses.csv"
+* Run get_names.py to generate the names file
+* Run hat.py to get the shuffled pairs
+* Run write_letters.py to create the assignment messages
+
+# Known Issue
+* Currently, write_letters.py requires ./output/letters to already exist and will fail with a file not found if it's not
